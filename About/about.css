@@ -1,0 +1,138 @@
+nav {
+  background-color: #291F64;
+}
+
+.container {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding-top: 12rem !important;
+  margin-bottom: 100px;
+  color: #464646;
+  background-image: url(https://ibb.co/qRXmkB2);
+}
+
+#heading {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+.patron-grid {
+  display: gird;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem 0;
+}
+
+p {
+  padding-top: 5rem;
+  font-size: 1.75rem;
+  text-align: justify;
+}
+
+#textbold {
+  color: #6f0098;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-container img, 
+.patron-container img {
+  width: 30rem;
+}
+
+.patron-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.patron-container{
+  margin: 0 9rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.patron-container h2{
+  font-size: 35px;
+  color: #464646;
+  text-align: center;
+}
+.patron-container h4{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #464646;
+}
+.patron-container img{
+  width: 30%;
+}
+.line img
+{
+  width: 30%;
+  margin-left: 35%;
+}
+
+.text-container p{
+  text-align: center;
+  padding: 0%;
+  font-size: 15px;
+  color: #000;
+}
+
+.social p {
+  padding: 0;
+}
+
+.patron-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+@media screen and (max-width: 992px) {
+  .patron-grid {
+      grid-template-columns: 1fr;
+  }
+  .patron-card {
+      margin: 3rem 0 ;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .container{
+      margin-left: 15px;
+  }
+  #heading{
+      font-size: 40px;
+  }
+  #paragraph{
+      font-size: 25px;
+  }
+  #patron-heading{
+      font-size: 40px;
+  }
+}
+@media screen and (max-width: 572px){
+  #heading{
+      font-size: 35px;
+  }
+  #paragraph{
+      font-size: 20px;
+  }#patron-heading{
+      font-size: 35px;
+  }
+  p {
+    padding-top: 5rem;
+    font-size: 1.50rem;
+    text-align: justify;
+    width: 90%;
+    margin-left: 0%;
+  }
+  .patron-container img{
+    width: 30%;
+    margin-left: -5%;
+  }
+}

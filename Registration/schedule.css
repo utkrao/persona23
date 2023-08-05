@@ -1,0 +1,40 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  background-color: #291f64 !important;
+  background-color: #291f64 !important;
+  position: fixed;
+}
+
+.schedule-container {
+  min-height: 100vh;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.schedule-container iframe {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  width: 90vw;
+  height: 90vh;
+  border: 5px solid #291f64;
+  border-radius: 20px;
+}
+.schedule-container h2 {
+  color: #291f64;
+  padding-top: 8rem;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 550px) {
+  .schedule-container h2 {
+    transition: font-size 1s;
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../images/persona-image.png" />
+    <title>Total Payable || MIT Persona Fest - 2023</title>
+  </head>
+  <body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.card-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: navy;
+  color: white;
+  padding: 14px 20px;
+  margin-top: -10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: purple;
+}
+.card {
+    height: max-content;
+    padding: 40px 20px;
+    width: 20rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+}
+
+.events {
+    font-size: 14px;
+    color: #696969;
+    margin: 8px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.payable-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    margin-top: 20px;
+    color: #696969;
+}
+
+.payable-text span {
+    font-weight: 900;
+}
+
+.total-amount {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #0EB400;
+}
+
+.pay-btn {
+    width: inherit;
+    font-size: 16px;
+    padding: 12px 0;
+    margin-top: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    background: rgba(41, 31, 100, 0.9);
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.pay-btn span {
+    font-weight: 900;
+}
+
+.pay-btn:hover {
+    color: #cecece;
+}
+
+    </style>
+    <div class="card-container">
+      <div class="card">
+        <p class="events">Event 1</p>
+        <p class="events">Event 1</p>
+        <p class="events">Event 1</p>
+        <p class="events">Event 1</p>
+        <p class="events">Event 1</p>
+        <p class="payable-text">YOUR <span>TOTAL AMOUNT</span> FOR ABOVE EVENTS IS:</p>
+        
+        <p class="total-amount">Rs. 400/-</p>
+
+        <input type="text" id="lname" name="utrc" placeholder="Enter Transaction/Refrence ID"><br><br>
+        <input type="submit" value="Confirm" name="Confirm">
+      </div>
+    </div>
+  </body>
+</html>
